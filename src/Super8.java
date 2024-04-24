@@ -1,12 +1,13 @@
 package com.pa3p.NotDone.Maquina_Expendedora;
 
-public class Sprite extends Bebida {
-    public Sprite(int serie) {
+public class Super8 extends Dulce {
+    public Super8(int serie) {
         super(serie);
+
     }
-    
+
     public String consumir() {
-        return "sprite";
+        return "super8";
 
     }
 
