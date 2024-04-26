@@ -1,3 +1,9 @@
+/** 
+ * @author Nícholas García
+ * @author Benjamin Molina
+*/
+
+
 package com.pa3p.NotDone.Maquina_Expendedora;
 
 public abstract class Moneda implements Comparable<Moneda> {
@@ -7,6 +13,9 @@ public abstract class Moneda implements Comparable<Moneda> {
 
 
     }
+    /**
+     * @return int Valor de la moneda
+    */
 
     public abstract int getValor();
 

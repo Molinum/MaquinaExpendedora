@@ -5,6 +5,10 @@ public class Super8 extends Dulce {
         super(serie);
 
     }
+    
+    /** 
+     * @return String "Sabor" del producto para poder identificarlo
+    */
 
     public String consumir() {
         return "super8";

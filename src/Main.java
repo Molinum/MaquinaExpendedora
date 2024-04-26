@@ -5,6 +5,7 @@ public class Main {
         Expendedor exp = new Expendedor(2);
         Moneda m = null;
         Comprador c = null;
+        System.out.println(ListProd[0]);
         for (int i = 0; i < 3; i++) {
             try {                
                 switch (i) {
