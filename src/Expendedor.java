@@ -1,5 +1,6 @@
-package com.pa3p.NotDone.Maquina_Expendedora;
-
+/**Representa una maquina expendedora
+ * @author Nícholas García
+ */
 public class Expendedor {
     private Deposito<Bebida> coca;
     private Deposito<Bebida> sprite;
@@ -8,6 +9,9 @@ public class Expendedor {
     private Deposito<Dulce> super8;
     private DepositoM monVu;
 
+    /**Crea un expendedor con la cantidad de productos especificada.
+     * @param i Numero de productos de cada tipo que contendra el expendedor.
+     */
     public Expendedor(int i) {
         coca = new Deposito<Bebida>();
         sprite = new Deposito<Bebida>();
@@ -24,9 +28,16 @@ public class Expendedor {
             super8.addProducto(new Super8(j));
 
         }
-
     }
-
+    /**Intenta comprar el producto especificado con la moneda especificada, y añade monedas de 100 equivalentes al vuelto a monVu.
+     *
+     * @param m Moneda con la que se va a intentar comprar.
+     * @param seleccion Identificador del producto que se quiere comprar.
+     * @return Producto comprado.
+     * @throws PagoIncorrectoException Cuando la moneda = null.
+     * @throws PagoInsuficienteException Cuando el valor de la moneda es menor al del producto a comprar.
+     * @throws NoHayProductoException Cuando el deposito del producto a comprar esta vacio.
+     */
     public Producto comprarProducto(Moneda m, ListProd seleccion) throws PagoIncorrectoException, PagoInsuficienteException, NoHayProductoException {
         Producto b = null;
         if (m == null) {
@@ -85,6 +96,9 @@ public class Expendedor {
 
     }
 
+    /**Extrae una moneda de monVu
+     * @return Una Moneda100 de monVu, o null si monVu esta vacio.
+     */
     public Moneda getVuelto() {
         if (monVu != null) {
             return monVu.getMoneda();

@@ -3,7 +3,7 @@
  * @author Benjamin Molina
 */
 
-package com.pa3p.NotDone.Maquina_Expendedora;
+
 
 public class CocaCola extends Bebida {
     public CocaCola(int serie) {

@@ -1,11 +1,7 @@
-/** 
+/** Representa una moneda
  * @author Nícholas García
  * @author Benjamin Molina
 */
-
-
-package com.pa3p.NotDone.Maquina_Expendedora;
-
 public abstract class Moneda implements Comparable<Moneda> {
     public Moneda() {}
     public Moneda getSerie() {
@@ -13,10 +9,9 @@ public abstract class Moneda implements Comparable<Moneda> {
 
 
     }
-    /**
-     * @return int Valor de la moneda
+    /**Obtiene el valor de la moneda
+     * @return un int que representa el valor de la moneda
     */
-
     public abstract int getValor();
 
     @Override

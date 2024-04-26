@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f5d9c36b-a4f8-4137-b1e5-ae2097bc5ce5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaquinaExpendedora.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bebida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bebida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CocaCola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CocaCola.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Comprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Comprador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Deposito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deposito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DepositoM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DepositoM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dulce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dulce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Expendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fanta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fanta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListProd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListProd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moneda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moneda100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moneda100.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moneda1000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moneda1000.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moneda500.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moneda500.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NoHayProductoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NoHayProductoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PagoIncorrectoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PagoIncorrectoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PagoInsuficienteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PagoInsuficienteException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Snickers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Snickers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Super8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Super8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +36,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2fW84mcwvd1yarQf09hXblWz0sL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,6 +51,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -52,6 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713905286690</updated>
       <workItem from="1713905287725" duration="10000" />
+      <workItem from="1714165005735" duration="4655000" />
     </task>
     <servers />
   </component>

@@ -1,18 +1,18 @@
-/** 
+/** Representa una moneda de 100 pesos
  * @author Nícholas García
  * @author Benjamin Molina
 */
-
-package com.pa3p.NotDone.Maquina_Expendedora;
-
 public class Moneda100 extends Moneda {
+    /**Crea una moneda cuyo valor sera 100
+     */
     public Moneda100() {
         super();
 
     }
 
+
     public int getValor() {
-        return 100; /* @return int Valor de la moneda */
+        return 100;
 
     }
 
