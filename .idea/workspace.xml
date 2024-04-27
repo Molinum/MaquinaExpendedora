@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5d9c36b-a4f8-4137-b1e5-ae2097bc5ce5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bebida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bebida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CocaCola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CocaCola.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Comprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Comprador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Deposito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deposito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DepositoM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dulce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dulce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Expendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expendedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fanta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fanta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListProd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListProd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moneda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moneda100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moneda100.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moneda1000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moneda1000.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moneda500.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moneda500.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NoHayProductoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NoHayProductoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PagoIncorrectoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PagoIncorrectoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PagoInsuficienteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PagoInsuficienteException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Snickers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Snickers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sprite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Super8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Super8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +14,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -86,5 +70,25 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Bebida.java</url>
+          <line>5</line>
+          <properties class="Bebida" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CocaCola.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
