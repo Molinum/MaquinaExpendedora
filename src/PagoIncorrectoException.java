@@ -1,4 +1,4 @@
-/** 
+/** Excepcion para cuando se intenta comprar sin una moneda.
  * @author Nícholas García
  * @author Benjamin Molina
 */

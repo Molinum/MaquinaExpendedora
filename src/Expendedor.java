@@ -7,9 +7,9 @@ public class Expendedor {
     private Deposito<Bebida> fanta;
     private Deposito<Dulce> snickers;
     private Deposito<Dulce> super8;
-    private DepositoM monVu;
+    private Deposito<Moneda> monVu;
 
-    /**Crea un expendedor con la cantidad de productos especificada.
+    /**Crea un expendedor con i productos de cada tipo.
      * @param i Numero de productos de cada tipo que contendra el expendedor.
      */
     public Expendedor(int i) {
@@ -18,14 +18,14 @@ public class Expendedor {
         fanta = new Deposito<Bebida>();
         snickers = new Deposito<Dulce>();
         super8 = new Deposito<Dulce>();
-        monVu = new DepositoM();
+        monVu = new Deposito<Moneda>();
 
         for (int j = 0; j < i; j++) {
-            coca.addProducto(new CocaCola(j));
-            sprite.addProducto(new Sprite(j));
-            fanta.addProducto(new Fanta(j));
-            snickers.addProducto(new Snickers(j));
-            super8.addProducto(new Super8(j));
+            coca.addElemento(new CocaCola(j));
+            sprite.addElemento(new Sprite(j));
+            fanta.addElemento(new Fanta(j));
+            snickers.addElemento(new Snickers(j));
+            super8.addElemento(new Super8(j));
 
         }
     }
@@ -33,8 +33,9 @@ public class Expendedor {
      *
      * @param m Moneda con la que se va a intentar comprar.
      * @param seleccion Identificador del producto que se quiere comprar.
-     * @return Producto comprado.
-     * @throws PagoIncorrectoException Cuando la moneda = null.
+     * @return Objeto producto que fue comprado.
+     *
+     * @throws PagoIncorrectoException Cuando la moneda == null.
      * @throws PagoInsuficienteException Cuando el valor de la moneda es menor al del producto a comprar.
      * @throws NoHayProductoException Cuando el deposito del producto a comprar esta vacio.
      */
@@ -45,28 +46,28 @@ public class Expendedor {
 
         }
 
-        int iterations = m.getValor() / 100;
+        int iterations = m.getValor() / 100; //Cantidad maxima de monedas de 100 para dar de vuelto.
 
         if(m.getValor() >= seleccion.getPrecio()) {
             switch (seleccion) {
                 case COCACOLA:
-                    b = coca.getProducto();
+                    b = coca.getElemento();
                     break;
                 
                 case SPRITE:
-                    b = sprite.getProducto();
+                    b = sprite.getElemento();
                     break;
 
                 case FANTA:
-                    b = fanta.getProducto();
+                    b = fanta.getElemento();
                     break;
 
                 case SNICKERS:
-                    b = snickers.getProducto();
+                    b = snickers.getElemento();
                     break;
                 
                 case SUPER8:
-                    b = super8.getProducto();
+                    b = super8.getElemento();
                     break;
 
             }
@@ -87,7 +88,7 @@ public class Expendedor {
         }
 
         for (int j = 0; j < iterations; j++) {
-            monVu.addMoneda(new Moneda100());
+            monVu.addElemento(new Moneda100());
 
         }
 
@@ -101,7 +102,7 @@ public class Expendedor {
      */
     public Moneda getVuelto() {
         if (monVu != null) {
-            return monVu.getMoneda();
+            return monVu.getElemento();
 
         }
 

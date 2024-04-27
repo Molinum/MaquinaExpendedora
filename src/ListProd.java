@@ -1,5 +1,6 @@
-
-
+/** Lista de productos
+ * @author Nícholas García
+ */
 public enum ListProd {
     COCACOLA(300),
     SPRITE(100), 

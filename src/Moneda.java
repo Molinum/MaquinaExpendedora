@@ -14,6 +14,10 @@ public abstract class Moneda implements Comparable<Moneda> {
     */
     public abstract int getValor();
 
+    /**
+     * @param m La Moneda con la que se compara la moneda actual.
+     * @return Diferencia entre el valor de la moneda actual y la moneda a comparar.
+     */
     @Override
     public int compareTo(Moneda m) {
         return this.getValor() - m.getValor();

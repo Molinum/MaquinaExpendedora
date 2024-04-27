@@ -1,5 +1,7 @@
-
-
+/** Representa a un comprador que usa una cantidad de dinero para intentar comprar un producto del expendedor.
+ * @author Benjamin Molina
+ * @author Nícholas García
+ */
 public class Comprador {
     private String sonido = null;
     private int vuelto = 0;

@@ -1,13 +1,11 @@
-/** 
+/**Representa un producto generico.
  * @author Nícholas García
  * @author Benjamin Molina
- *
- * Representa un producto de la maquina expendedora
 */
 public abstract class Producto {
     private int serie;
 
-    /**
+    /**Crea un producto con el numero de serie especificado.
      * @param serie Numero de serie de producto
     */
     public Producto(int serie) {

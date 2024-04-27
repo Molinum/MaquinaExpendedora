@@ -1,15 +1,15 @@
-/** 
+/**Representa una bebida Sprite.
  * @author Nícholas García
  * @author Benjamin Molina
 */
 public class Sprite extends Bebida {
+    /**Crea una bebida Sprite.
+     * @param serie Numero de serie del producto.
+     */
     public Sprite(int serie) {
         super(serie);
     }
-    
-    /** 
-     * @return String "Sabor" del producto para poder identificarlo
-    */
+
     public String consumir() {
         return "sprite";
 

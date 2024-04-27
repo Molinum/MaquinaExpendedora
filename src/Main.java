@@ -1,5 +1,4 @@
 
-
 public class Main {
     public static void main(String[] args) {
         Bebida b = new CocaCola(1);
@@ -35,9 +34,7 @@ public class Main {
 
                 }
             
-                
-                
-                
+
             } catch (Exception e) {
                 System.out.println(e);
     
@@ -45,9 +42,5 @@ public class Main {
 
 
         }
-        
-        
-
-          
     }
 }

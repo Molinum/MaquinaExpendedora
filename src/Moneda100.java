@@ -1,4 +1,4 @@
-/** Representa una moneda de 100 pesos
+/**Representa una moneda de 100 pesos
  * @author Nícholas García
  * @author Benjamin Molina
 */
@@ -9,7 +9,6 @@ public class Moneda100 extends Moneda {
         super();
 
     }
-
 
     public int getValor() {
         return 100;

@@ -1,4 +1,4 @@
-/**Representa un Snickers
+/**Representa un Snickers.
  * @author Nícholas García
  * @author Benjamin Molina
 */

@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5d9c36b-a4f8-4137-b1e5-ae2097bc5ce5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bebida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bebida.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CocaCola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CocaCola.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Comprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Comprador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Deposito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deposito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DepositoM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DepositoM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DepositoM.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Dulce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dulce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Expendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expendedor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Fanta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fanta.java" afterDir="false" />
@@ -47,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -56,6 +58,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
